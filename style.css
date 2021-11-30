@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar {
+  width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 30%;
+  margin-left: 6%;
+  padding-top: 16px;
+}
+
+p {
+  font-size: 150%;
+  padding: 4px;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main-logo {
+  object-fit: contain;
+  background-size: auto 39px;
+  height: 100px;
+  width: 100px;
+}
