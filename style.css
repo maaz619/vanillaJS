@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
   width: 70%;
   height: 30%;
-  margin-left: 6%;
+  margin-left: 3%;
   padding-top: 16px;
 }
 
@@ -26,7 +26,9 @@ p {
   padding-top: 10px;
   margin: 0;
 }
-
+p:hover {
+  cursor: pointer;
+}
 .nav {
   display: flex;
   width: 100%;
